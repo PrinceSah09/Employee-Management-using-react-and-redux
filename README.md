@@ -11,6 +11,7 @@ The Employee Management System is a web application designed to manage employee 
 - HTML (Hypertext Markup Language) 📄
 
 <img src="SS.png" alt="SS of application" >
+
 ## Components 🧩
 
 ### Navigation 🚀
