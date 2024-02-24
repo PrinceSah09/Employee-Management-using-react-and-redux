@@ -47,11 +47,7 @@ The Employee Management System is a web application designed to manage employee 
 ## Future Enhancements 🚀
 - Authentication and user management functionality.
 - Additional validation and error handling features.
-- Integration with backend server for data persistence.
-
-## Contributors 👥
-- [Your Name]
-- [Contributor Name(s)]
-
+- Integration with backend server for data persistence. 
+ 
 ## License 📄
 This project is licensed under the [License Name]. (Include license details if applicable)
