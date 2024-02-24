@@ -1,0 +1,83 @@
+/* src/components/Navigation.css */
+
+.navigation-container {
+  padding: 10px;
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.header {
+  font-size: 2em;
+  font-weight: bold;
+  width: fit-content;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+#header_link {
+  text-decoration: none;
+  color: white;
+}
+
+/* Styles for navigation links container */
+.nav-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#Nav_Link_Btn {
+  background-color: #1e3146;
+  border: none;
+}
+
+#Nav_Link_Btn:hover {
+  background-color: #123e71;
+}
+
+/* Remove outline on input focus */
+input:focus {
+  outline: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 15px;
+  transition: color 0.3s;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .navigation-container {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    margin-top: 15px;
+  }
+
+  .nav-links a {
+    margin: 10px 0;
+    margin-left: 0;
+    /* Reset margin for vertical layout */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    font-size: 24px;
+    /* Adjust header font size for smaller screens */
+  }
+
+  #Nav_Link_Btn {
+    margin: 5px;
+  }
+}

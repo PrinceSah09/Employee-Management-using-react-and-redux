@@ -1,0 +1,25 @@
+/* Body styles */
+body {
+  margin: 0;
+  /* Remove default body margin */
+  font-family: 'Arial', sans-serif;
+  /* Set default font family */
+  background-color: #292929;
+  /* Set background color */
+}
+
+/* Main container styles */
+.app-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Add box shadow for a subtle effect */
+}
+
+/* Remove outline on input focus */
+input:focus {
+  outline: none;
+}

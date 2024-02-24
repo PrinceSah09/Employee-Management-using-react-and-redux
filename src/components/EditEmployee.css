@@ -1,0 +1,59 @@
+/* Styles for the edit employee container */
+.edit-employee-container {
+  background-color: #1d1d1d;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  max-width: 500px;
+  color: white;
+  margin-left: auto;
+  font-weight: bolder;
+  margin: auto;
+}
+
+/* Styles for the update and cancel buttons */
+.update-button,
+.cancel-button {
+  background-color: #ff8100;
+  transition: background-color 0.3s;
+  color: white;
+  padding: 10px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Styles for labels within the edit employee container */
+.edit-employee-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Styles for input fields within the edit employee container */
+.edit-employee-container input {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Hover effect for the update and cancel buttons */
+.update-button:hover,
+.cancel-button:hover {
+  background-color: #b35a00;
+}
+
+/* Styles for the success message */
+.success-message {
+  display: flex;
+  margin: 10px auto;
+  padding: 15px 20px;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: green;
+  color: rgb(255, 255, 255);
+}

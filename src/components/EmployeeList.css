@@ -1,0 +1,141 @@
+/* Global heading style */
+h2 {
+  text-align: center;
+  /* Center-align the heading */
+  margin-top: 20px;
+  /* Add top margin for spacing */
+}
+
+/* Container for the employee list */
+.List_Class {
+  height: 600px;
+  /* Set fixed height */
+  box-shadow: 0 0 5px white;
+  /* Add border for visibility */
+  margin: auto;
+  /* Center the container horizontally */
+  overflow-x: auto;
+  width: 75%;
+  background-color: #1d1d1d;
+  white-space: nowrap;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.heading_text {
+  background-color: #2b2a2a;
+  margin: auto;
+  padding: 0 10px;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 21px;
+}
+
+.List_Class h2 {
+  color: #ff8100;
+  font-size: 25px;
+  width: 100%;
+}
+
+.scroll {
+  background-color: #2b2a2a;
+  width: 90%;
+  margin: auto;
+}
+
+/* Style for the container holding the employee list */
+.employee-list-container {
+  background-color: #E8D8C4;
+  /* Set background color */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  max-width: 600px;
+  /* Set maximum width */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Style for the table holding employee data */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th,
+td {
+  /* Set border color */
+  padding: 10px;
+  /* Add padding */
+  text-align: left;
+  color: white;
+  /* Left-align text */
+  text-align: center;
+}
+
+/* Style for table header */
+th {
+  background-color: #2b2a2a;
+  /* Set header background color */
+  color: white;
+  /* Set header text color */
+  border-bottom: 3px solid white;
+}
+
+td {
+  border-bottom: 1px solid white;
+  background-color: #151514;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+  background-color: #252423;
+  /* Set hover background color */
+  cursor: pointer;
+}
+
+/* Style for buttons in the table */
+.edit-button,
+.delete-button {
+  background-color: #ff8100;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.2s;
+  box-shadow: 0 0 4px #ffa143;
+}
+
+/* Hover effect for buttons */
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #d16800;
+  /* Darker background color on hover */
+}
+
+/* Success message styling */
+.success-message {
+  color: rgb(0, 255, 0);
+  /* Set text color */
+  border-radius: 5px;
+  margin: auto;
+}
+
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .List_Class {
+    overflow-x: auto;
+    /* Add horizontal scrolling for mobile view */
+  }
+
+  #List_Class {
+    width: 80%;
+  }
+}

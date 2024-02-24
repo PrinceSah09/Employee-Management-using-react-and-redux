@@ -1,0 +1,72 @@
+/* Styles for the add employee container */
+.add-employee-container {
+  background-color: #1d1d1d;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  max-width: 500px;
+  color: white;
+  margin-left: auto;
+  font-weight: bolder;
+  margin: auto;
+  /* Center the container horizontally */
+}
+
+/* Styles for labels within the add employee container */
+.add-employee-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Styles for input fields within the add employee container */
+.add-employee-container input {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Styles for the add button */
+.add-button {
+  background-color: #ffa31a;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+  font-weight: bolder;
+}
+
+/* Hover effect for the add button */
+.add-button:hover {
+  background-color: #e08600;
+  /* Change background color on hover */
+}
+
+/* Styles for the success message */
+.success-message1 {
+  display: flex;
+  margin: 10px auto;
+  /* Center the message horizontally */
+  padding: 15px 20px;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: green;
+  color: rgb(255, 255, 255);
+  /* Set text color */
+}
+
+/* Media query for screens up to 768px */
+@media screen and (max-width: 768px) {
+  .add-employee-container {
+    margin: 10px;
+    /* Add margin */
+    max-width: 100%;
+    border-radius: 0;
+  }
+}
