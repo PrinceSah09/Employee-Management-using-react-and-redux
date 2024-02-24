@@ -10,6 +10,7 @@ The Employee Management System is a web application designed to manage employee 
 - CSS (Cascading Style Sheets) 🎨
 - HTML (Hypertext Markup Language) 📄
 
+<img src="SS.png" alt="SS of application" >
 ## Components 🧩
 
 ### Navigation 🚀
